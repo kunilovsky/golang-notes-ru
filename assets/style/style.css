@@ -1,0 +1,47 @@
+/* Global */
+header {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #919191;
+}
+
+/* Components */
+.container {
+  width: 100%;
+  max-width: 1110px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+code {
+  background: #002e43;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Elements */
+.logo {
+  width: 100px;
+}
+
+nav > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+nav > ul > li {
+  padding: 0 5px;
+}
+/*# sourceMappingURL=style.css.map */
